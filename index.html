@@ -1,16 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style type="text/css">
-        h1{
-            text-align: center;
-            font-size: 50px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Hello Github</h1>   
-</body>
-</html>
+---
+title: 我的第一篇文章
+---
+
+# {{ page.title }}
+
+## 目录
++ [第一部分](#partI)
++ [第二部分](#partII)
++ [第三部分](#partIII)
+
+----------------------------------
+
+## 第一部分
+ 
+这里是第一部分的内容
+
+----------------------------------
+
+## 第二部分
+ 
+这里是第二部分的内容
+
+----------------------------------
+
+## 第三部分
+ 
+这里是第三部分的内容
+
+{{ page.date|date_to_string }}
